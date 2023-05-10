@@ -316,3 +316,102 @@ header {
   display: block;
 }
 /* hero section style ends */
+/* product section style starts */
+#products {
+  background: url(../images/Bg-lines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#products section.wrapper div.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#products section.wrapper div.head h4 {
+  font-weight: 600;
+  max-width: 45%;
+  font-size: 32px;
+}
+
+#products section.wrapper div.head a.button {
+  font-weight: 600;
+  background: #fff;
+}
+
+#products section.wrapper div.head a.button img {
+  width: 15%;
+}
+
+#products section.wrapper div.tail ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#products section.wrapper div.tail ul li {
+  width: 17%;
+}
+#products section.wrapper div.tail ul li:first-child {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li:nth-child(2) {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li:nth-child(2) {
+  margin-top: 150px;
+  width: 4%;
+}
+#products section.wrapper div.tail ul li:nth-child(2) a {
+  width: 25%;
+}
+#products section.wrapper div.tail ul li:nth-child(2) a img {
+  width: 100%;
+  transform: rotate(180deg);
+}
+#products section.wrapper div.tail ul li:nth-child(4) {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li:nth-child(5) {
+  position: relative;
+}
+#products section.wrapper div.tail ul li:nth-child(5) div.sale {
+  background: #e41d1d;
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  bottom: 232px;
+  padding: 8px;
+}
+#products section.wrapper div.tail ul li:nth-child(6) {
+  margin-top: 150px;
+  width: 5%;
+}
+#products section.wrapper div.tail ul li:nth-child(6) a {
+  display: inline-block;
+  width: 80%;
+  margin-left: 30%;
+}
+#products section.wrapper div.tail ul li:nth-child(6) a img {
+  width: 100%;
+}
+#products section.wrapper div.tail ul li:last-child {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li .photo img {
+  width: 100%;
+}
+#products .wrapper .tail ul li a h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+#products section.wrapper div.tail ul li a small {
+  color: #7a7171;
+  width: 20%;
+  background: #fff;
+}
+#products .wrapper .tail ul li a h4 {
+  font-weight: 600;
+}
+/* product section style ends */

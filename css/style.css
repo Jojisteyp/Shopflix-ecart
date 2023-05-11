@@ -491,3 +491,45 @@ header {
   width: 15px;
 }
 /* article section style ends */
+/* cloth section style starts*/
+#cloth {
+  padding: 200px 0;
+}
+#cloth section.wrapper div.head ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+#cloth section.wrapper div.head ul li {
+  font-weight: 600;
+  font-size: 40px;
+}
+#cloth section.wrapper div.head ul li:nth-child(even) {
+  border: 2px solid #777;
+  transform: rotate(90deg);
+  margin: 22px 0;
+}
+#cloth section.wrapper div.tail {
+  display: flex;
+  justify-content: space-evenly;
+}
+#cloth section.wrapper div.tail div.pic {
+  width: 32%;
+  position: relative;
+}
+#cloth section.wrapper div.tail div.pic > img {
+  width: 100%;
+}
+#cloth section.wrapper div.tail div.pic.size > img {
+  height: 100%;
+}
+#cloth section.wrapper div.tail div.pic a {
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+}
+#cloth section.wrapper div.tail div.pic a img {
+  width: 100%;
+  display: block;
+}
+/* cloth section style ends */

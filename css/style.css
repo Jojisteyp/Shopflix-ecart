@@ -415,3 +415,79 @@ header {
   font-weight: 600;
 }
 /* product section style ends */
+/* article section style start */
+#article {
+  padding-top: 100px;
+}
+#article section.wrapper {
+  display: flex;
+}
+#article section.wrapper div.left {
+  position: relative;
+}
+#article section.wrapper div.left div.pic {
+  width: 100%;
+}
+#article section.wrapper div.left div.pic img {
+  width: 100%;
+}
+#article section.wrapper div.left div.description {
+  background: #000;
+  position: absolute;
+  padding: 30px 0 30px 30px;
+  width: 75%;
+  bottom: 8px;
+}
+#article section.wrapper div.left div.description h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #777;
+}
+#article section.wrapper div.left div.description p {
+  color: #fff;
+  font-size: 24px;
+}
+#article section.wrapper div.left div.description span a {
+  color: #777;
+  font-weight: 600;
+}
+#article section.wrapper div.left div.description span a img {
+  width: 15px;
+}
+#article section.wrapper div.right {
+  position: relative;
+}
+#article section.wrapper div.right div.pic {
+  width: 100%;
+}
+#article section.wrapper div.right div.pic img {
+  width: 100%;
+}
+#article section.wrapper div.right div.description {
+  background: #e9dbb4;
+  position: absolute;
+  padding: 30px 30px 30px 30px;
+  width: 75%;
+  top: 0;
+  right: 0;
+}
+#article section.wrapper div.right div.description h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #777;
+}
+#article section.wrapper div.right div.description p {
+  color: #747474;
+  font-size: 24px;
+  font-weight: 600;
+}
+#article section.wrapper div.right div.description span a {
+  color: #777;
+  font-weight: 600;
+}
+#article section.wrapper div.right div.description span a img {
+  width: 15px;
+}
+/* article section style ends */

@@ -533,3 +533,37 @@ header {
   display: block;
 }
 /* cloth section style ends */
+/* contact section style start */
+#contact section.wrapper div.top {
+  text-align: right;
+  margin-bottom: 50px;
+}
+#contact section.wrapper div.top a.button {
+  padding: 13px;
+  background: #000;
+  color: #fff;
+}
+#contact section.wrapper div.bottom ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#contact section.wrapper div.bottom ul li {
+  border: 0.3px solid #a6a6a6;
+  width: 32.5%;
+  padding: 50px 0 50px 15px;
+}
+#contact section.wrapper div.bottom ul li:hover {
+  border-bottom: 4px solid #000;
+}
+#contact section.wrapper div.bottom ul li h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+#contact section.wrapper div.bottom ul li span {
+  color: #777;
+  max-width: 75%;
+  display: block;
+  font-weight: 500;
+}
+/* contact section style ends */

@@ -567,3 +567,62 @@ header {
   font-weight: 500;
 }
 /* contact section style ends */
+/* footer section style start */
+
+footer hr.line {
+  margin-top: 200px;
+  border: 0.1px solid #d3d3d3;
+}
+footer section.wrapper {
+  display: flex;
+  padding-top: 150px;
+}
+
+footer section.wrapper div.left {
+  margin-right: 200px;
+}
+footer section.wrapper div.left h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+footer section.wrapper div.left p {
+  width: 250px;
+  font-weight: 500;
+}
+footer section.wrapper div.right {
+  display: flex;
+}
+footer section.wrapper div.right ul {
+  margin-right: 60px;
+}
+footer section.wrapper div.right ul h2 {
+  font-size: 18px;
+  font-weight: 600;
+  width: 200px;
+  margin-bottom: 40px;
+}
+footer section.wrapper div.right ul li {
+  width: 250px;
+  margin-top: 20px;
+}
+footer section.wrapper div.right ul li.icon img {
+  margin-right: 10px;
+}
+footer div.end {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+footer div.end div.bottom h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 160px;
+}
+footer div.end div.privacy {
+  margin-left: 56%;
+}
+footer div.end div.privacy a {
+  margin-left: 20px;
+}
+/* footter section style end */

@@ -65,4 +65,212 @@
     width: 10px;
   }
 }
+@media all and (max-width: 1080px) {
+  #hero #spotlight section.left div.top div.ul {
+    font-size: 5px;
+  }
 
+  #hero #spotlight section.left div.top div.ul ul li a {
+    font-size: 11px;
+  }
+
+  #hero #spotlight section.left div.bottom div.arrow a {
+    padding: 7px 7px;
+  }
+
+  #hero #spotlight section.left div.bottom div.arrow {
+    right: -75px;
+    bottom: -35px;
+  }
+
+  #cloth section.wrapper div.head ul li {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  #cloth section.wrapper div.head ul li:nth-child(even) {
+    margin: 15px 0;
+  }
+
+  #contact section.wrapper div.bottom ul li span {
+    max-width: 80%;
+  }
+
+  footer section.wrapper div.head div.right {
+    width: 60%;
+  }
+
+  footer section.wrapper div.bottom div.last {
+    width: 25%;
+  }
+}
+
+@media all and (max-width: 980px) {
+  #hero {
+    padding-bottom: 80px;
+  }
+
+  #hero #spotlight section.left div.top {
+    display: none;
+  }
+
+  #hero #spotlight section.left div.bottom ul.line {
+    width: 22%;
+    left: 2px;
+    bottom: -42px;
+  }
+
+  #hero #spotlight section.left div.bottom ul.line li:first-child hr.line {
+    width: 30px;
+  }
+
+  #hero #spotlight section.left div.bottom ul.line li hr.line {
+    width: 20px;
+    margin-left: 3px;
+  }
+
+  #hero #spotlight section.left div.bottom {
+    padding-top: 50px;
+  }
+
+  #hero #spotlight section.left div.bottom div.arrow {
+    right: 8px;
+    bottom: -45px;
+  }
+
+  #hero #spotlight section.left div.bottom div.content {
+    width: 100%;
+  }
+
+  #hero #spotlight section.left div.bottom {
+    width: 100%;
+  }
+
+  #hero #spotlight section.left div.content h4 {
+    font-size: 33px;
+  }
+
+  #hero #spotlight section.left div.content p {
+    font-size: 14px;
+    max-width: 90%;
+  }
+
+  #hero #spotlight section.right div.content small {
+    display: none;
+  }
+
+  #products section.wrapper div.head h4 {
+    max-width: 70%;
+    font-size: 26px;
+  }
+
+  #products section.wrapper div.head a.button {
+    font-size: 15px;
+  }
+
+  #products section.wrapper div.head a.button img {
+    width: 13%;
+  }
+
+  #article section.wrapper div.left div.description {
+    padding: 11px 8px 12px 9px;
+  }
+
+  #article section.wrapper div.left div.description h6 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  #article section.wrapper div.left div.description p {
+    font-size: 15px;
+  }
+
+  #article section.wrapper div.right div.description span a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  #article section.wrapper div.right div.description h6 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  #article section.wrapper div.right div.description p {
+    font-size: 15px;
+  }
+
+  #article section.wrapper div.right div.description span a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  #contact section.wrapper div.bottom ul li {
+    border: 0.3px solid #a6a6a6;
+    width: 32.5%;
+    padding: 30px 0 30px 15px;
+  }
+
+  #contact section.wrapper div.bottom ul li h5 {
+    margin-bottom: 10px;
+  }
+
+  #contact section.wrapper div.bottom ul li span {
+    font-size: 14px;
+    max-width: 85%;
+  }
+
+  #cloth {
+    padding: 100px 0;
+  }
+
+  footer {
+    padding-top: 100px;
+  }
+
+  footer section.wrapper div.head {
+    padding-top: 70px;
+  }
+
+  footer section.wrapper div.head {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  footer section.wrapper div.head div.left {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  footer section.wrapper div.head div.left p {
+    width: 100%;
+  }
+
+  footer section.wrapper div.head div.right {
+    width: 100%;
+  }
+
+  footer section.wrapper div.head div.right div.list ul li a img {
+    width: 8%;
+  }
+
+  footer section.wrapper div.head div.right div.list ul li a {
+    font-size: 14px;
+  }
+
+  footer section.wrapper div.head div.right div.list ul li {
+    margin-bottom: 0;
+  }
+
+  footer section.wrapper div.bottom div.first span {
+    font-size: 14px;
+  }
+
+  footer section.wrapper div.bottom div.last {
+    width: 30%;
+  }
+
+  footer section.wrapper div.bottom div.last ul li a {
+    font-size: 14px;
+  }
+}

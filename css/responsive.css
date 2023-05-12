@@ -1,0 +1,67 @@
+@media all and (max-width: 1280px) {
+  #hero #spotlight section.left div.content h4 {
+    font-size: 22px;
+  }
+
+  #hero #spotlight section.left div.content p {
+    font-size: 11px;
+  }
+
+  #hero #spotlight section.left div.content a.button {
+    padding: 10px 20px;
+  }
+
+  #hero #spotlight section.left div.bottom ul.line {
+    left: 100px;
+  }
+
+  #hero #spotlight section.left div.bottom ul.line {
+    width: 50%;
+  }
+
+  #hero #spotlight section.left div.bottom div.arrow {
+    right: -80px;
+    bottom: -20px;
+  }
+
+  #hero #spotlight section.right div.content small {
+    width: 80%;
+    font-size: 11px;
+  }
+
+  #hero #spotlight section.right div.content span {
+    font-size: 12px;
+  }
+
+  #hero #spotlight section.right div.content span a img {
+    width: 9%;
+  }
+
+  #products section.wrapper div.tail ul li:nth-child(5) div.sale {
+    bottom: 258px;
+  }
+
+  #article section.wrapper div.left div.description {
+    padding: 20px 2px 20px 15px;
+  }
+
+  #article section.wrapper div.left div.description p {
+    font-size: 18px;
+  }
+
+  #article section.wrapper div.left div.description span a img {
+    width: 10px;
+  }
+
+  #article section.wrapper div.right div.description {
+    padding: 20px 0 20px 15px;
+  }
+
+  #article section.wrapper div.right div.description p {
+    font-size: 18px;
+  }
+
+  #article section.wrapper div.right div.description span a img {
+    width: 10px;
+  }
+}

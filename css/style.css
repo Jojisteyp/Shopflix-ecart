@@ -568,61 +568,55 @@ header {
 }
 /* contact section style ends */
 /* footer section style start */
-
-footer hr.line {
-  margin-top: 200px;
-  border: 0.1px solid #d3d3d3;
-}
-footer section.wrapper {
-  display: flex;
+footer {
   padding-top: 150px;
 }
-
-footer section.wrapper div.left {
-  margin-right: 200px;
+footer hr.line {
+  border: 0.1px solid #d3d3d3;
 }
-footer section.wrapper div.left h1 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-footer section.wrapper div.left p {
-  width: 250px;
-  font-weight: 500;
-}
-footer section.wrapper div.right {
+footer section.wrapper div.head {
+  padding-top: 100px;
   display: flex;
+  justify-content: space-between;
 }
-footer section.wrapper div.right ul {
-  margin-right: 60px;
+footer section.wrapper div.head div.left {
+  width: 45%;
 }
-footer section.wrapper div.right ul h2 {
+footer section.wrapper div.head div.left h4 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 20px;
+  margin-bottom: 30px;
+}
+footer section.wrapper div.head div.left p {
+  width: 300px;
+}
+footer section.wrapper div.head div.right {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+footer section.wrapper div.head div.right div.list h5 {
   font-size: 18px;
   font-weight: 600;
-  width: 200px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
-footer section.wrapper div.right ul li {
-  width: 250px;
-  margin-top: 20px;
+footer section.wrapper div.head div.right div.list ul li {
+  margin-bottom: 15px;
 }
-footer section.wrapper div.right ul li.icon img {
-  margin-right: 10px;
+footer section.wrapper div.head div.right div.list div.social {
+  margin-top: 30px;
 }
-footer div.end {
+footer section.wrapper div.bottom {
   display: flex;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  justify-content: space-between;
+  margin: 50px 0;
 }
-footer div.end div.bottom h3 {
-  font-size: 15px;
-  font-weight: 500;
-  margin-left: 160px;
+footer section.wrapper div.bottom div.last {
+  width: 20%;
 }
-footer div.end div.privacy {
-  margin-left: 56%;
+footer section.wrapper div.bottom div.last ul {
+  display: flex;
+  justify-content: space-between;
 }
-footer div.end div.privacy a {
-  margin-left: 20px;
-}
-/* footter section style end */
+/* footer section style ends */

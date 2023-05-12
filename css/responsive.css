@@ -65,6 +65,7 @@
     width: 10px;
   }
 }
+
 @media all and (max-width: 1080px) {
   #hero #spotlight section.left div.top div.ul {
     font-size: 5px;
@@ -274,6 +275,7 @@
     font-size: 14px;
   }
 }
+
 @media all and (max-width: 768px) {
   #hero header nav.middle a {
     letter-spacing: 10px;
@@ -540,7 +542,10 @@
   footer section.wrapper div.bottom div.last ul li a {
     font-size: 12px;
   }
+
+  /* 480px Checkpoint starts */
 }
+
 @media all and (max-width: 480px) {
   #hero header nav.right ul li:nth-child(2) {
     display: none;
@@ -642,5 +647,99 @@
   footer section.wrapper div.head div.right div.list h5 {
     font-size: 16px;
     margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  #hero header nav.middle a {
+    letter-spacing: 6px;
+    font-size: 18px;
+  }
+
+  #hero header nav.right ul {
+    width: 65%;
+  }
+
+  #hero #spotlight {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #hero #spotlight section.left div.content h4 {
+    text-align: center;
+  }
+
+  #hero #spotlight section.left div.bottom div.content a.button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #hero #spotlight section.left div.bottom div.content p {
+    text-align: center;
+  }
+
+  #hero #spotlight section.right div.content {
+    margin-top: 0px;
+  }
+
+  #contact section.wrapper div.bottom ul {
+    flex-wrap: wrap;
+  }
+
+  #contact section.wrapper div.bottom ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  #contact section.wrapper div.bottom ul li span {
+    margin-left: 10px;
+  }
+
+  footer section.wrapper div.head div.left h4 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 13px;
+    margin-bottom: 10px;
+  }
+
+  footer section.wrapper div.head div.left p {
+    font-size: 12px;
+  }
+
+  footer section.wrapper div.head div.right div.list h5 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  footer section.wrapper div.head div.right div.list ul {
+    display: none;
+  }
+
+  footer section.wrapper div.head div.right {
+    position: relative;
+  }
+
+  footer section.wrapper div.head div.right div.list div.social {
+    position: absolute;
+    left: 90px;
+  }
+
+  footer section.wrapper div.bottom {
+    margin: 75px 0 0px 0;
+  }
+
+  footer section.wrapper div.bottom div.first span {
+    font-size: 10px;
+  }
+
+  footer section.wrapper div.bottom div.last {
+    width: 44%;
+  }
+
+  footer section.wrapper div.bottom div.last ul li a {
+    font-size: 10px;
   }
 }

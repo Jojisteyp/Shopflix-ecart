@@ -540,6 +540,107 @@
   footer section.wrapper div.bottom div.last ul li a {
     font-size: 12px;
   }
+}
+@media all and (max-width: 480px) {
+  #hero header nav.right ul li:nth-child(2) {
+    display: none;
+  }
 
-  /* 480px Checkpoint starts */
+  #hero header nav.right ul li:last-child {
+    display: none;
+  }
+
+  #hero header nav.middle a {
+    letter-spacing: 8px;
+  }
+
+  #hero #spotlight section.left div.content h4 {
+    font-size: 18px;
+    width: 150px;
+    margin-bottom: 3px;
+  }
+
+  #hero #spotlight section.left div.content p {
+    font-size: 10px;
+  }
+
+  #hero #spotlight section.left div.content a.button {
+    font-size: 8px;
+  }
+
+  #hero #spotlight section.right div.content span a {
+    display: none;
+  }
+
+  #hero {
+    padding-bottom: 40px;
+  }
+
+  #products section.wrapper div.head h4 {
+    font-size: 18px;
+  }
+
+  #products section.wrapper div.tail ul li a small {
+    width: 135px;
+    font-size: 9px;
+  }
+
+  #products .wrapper .tail ul li a h5 {
+    font-size: 12px;
+  }
+
+  #products section.wrapper div.tail ul li:nth-child(5) div.sale {
+    padding: 5px;
+    bottom: 68px;
+  }
+
+  #article section.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #article section.wrapper div.left div.description {
+    padding: 20px 8px 20px 15px;
+  }
+
+  #article section.wrapper div.left div.description p {
+    font-size: 12px;
+  }
+
+  #article section.wrapper div.right div.description {
+    padding: 15px 8px 15px 15px;
+  }
+
+  #article section.wrapper div.right div.description p {
+    font-size: 12px;
+  }
+
+  #contact section.wrapper div.bottom ul li h5 {
+    font-size: 12px;
+  }
+
+  #cloth {
+    padding: 40px 0;
+  }
+
+  #contact section.wrapper div.top a.button {
+    font-size: 9px;
+  }
+
+  footer section.wrapper div.head div.left h4 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    margin-bottom: 10px;
+  }
+
+  footer section.wrapper div.head div.left p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  footer section.wrapper div.head div.right div.list h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }
